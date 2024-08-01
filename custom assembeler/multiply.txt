@@ -1,0 +1,15 @@
+ADDI x1, x0, 15 //first num to multipy 
+ADDI x2, x0, 23 //second number to multipy
+ADD x3, x0, x0 //initilize x3 to 0
+
+multipy:
+    ANDI x10, x1, 1 //see if end is 1
+    BLTU x0, x10, After_add //if it is add otherwise skip
+    ADD x3, x2, x3
+    After_add:
+    SRLI x1, x1, 1 //shift x1 right and x2 left
+    SLLI x2, x2, 1
+    BLTU x0, x1, multipy //if x1 is not zero then loop
+
+ADD x4, x3, x0 //the output will be in x4
+EBREAK
