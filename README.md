@@ -1,19 +1,19 @@
-This is my work to make a basic functioning CPU with system verilog that follows the RISC-V acitecture
+This is my work to make a basic functioning CPU with System Verilog that follows the RISC-V architecture
 
-In the verilog files folder is all of the system verilog files that were used to design the architeure of the CPU.
+In the Verilog files folder is all of the system Verilog files that were used to design the architeure of the CPU.
 
-In the custom assemebler folder has the code for a custom asembler that turns the basic fucntions the CPU can do into machine code that can be simulated and run.
+In the custom assembler folder has the code for a custom assembler that turns the basic functions the CPU can do into machine code that can be simulated and run.
 
-The simulations were all done and tested on Vivado softwere.
+The simulations were all done and tested on Vivado software.
 
-This implemntaion cuentlly only implemnts RV32I base integer instuction set, this will hopefully be expanted apon later.
+This implementation currently only implements RV32I base integer instruction set, this will hopefully be expanded upon later.
 
-The curent functinality has the instuctions: 
+The current functionality has the instructions: 
 
-Load upper imidiate: LUI
+Load upper immediate: LUI
 Add Upper Immediate to pc: AUIPC
 Jump and Link: JAL
-Jump and Link Regester: JALR
+Jump and Link Register: JALR
 Branch if Equal: BEQ
 Branch if Not Equal: BNE
 Branch if Less Than: BLT
@@ -30,24 +30,24 @@ Save Bit: SB
 Save Half: SH
 Save Whole: SW
 
-Add with imidiate: ADDI
-Set less than with imidiate: SLTI
-Set less than with imidiate unsigned:SLTIU
-Bitwise Exlusive or with imidiate: XORI
-Bitwise Or with imidiate: ORI
-Bitwise And with imidiate: ANDI
-Logical Left Shift with imidiate: SLLI
-Logical Right Shift with imidiate: SRLI
-Arethmetic Right Shift with imidiate:SRAI
+Add with immediate: ADDI
+Set less than with immediate: SLTI
+Set less than with immediate unsigned: SLTIU
+Bitwise Exclusive or with immediate: XORI
+Bitwise Or with immediate: ORI
+Bitwise And with immediate: ANDI
+Logical Left Shift with immediate: SLLI
+Logical Right Shift with immediate: SRLI
+Arithmetic Right Shift with immediate: SRAI
 
 Add: ADD
 Subtract: SUB
 Logical Left Shift: SLL
 Set less than: SLT
 Set less than Unsigned: SLTU
-Bitwise Exlusive or: XOR
+Bitwise Exclusive or: XOR
 Logical Right Shift: SRL
-Arethmetic Right Shift: SRA
+Arithmetic Right Shift: SRA
 Bitwise Or: OR
 Bitwise And: AND
 
