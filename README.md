@@ -3,6 +3,7 @@ This is my work to make a basic functioning CPU with System Verilog that follows
 In the Verilog files folder is all of the system Verilog files that were used to design the architeure of the CPU.
 
 In the custom assembler folder has the code for a custom assembler that turns the basic functions the CPU can do into machine code that can be simulated and run.
+The mutiply.txt is a sample program and the new_program.mem is the assembled verion of that program.
 
 The simulations were all done and tested on Vivado software.
 
